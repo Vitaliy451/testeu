@@ -1,0 +1,41 @@
+{
+  "entityType" : "ENTITY_VIEW",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "endTimeMs" : 0,
+    "entityId" : {
+      "entityType" : "ASSET",
+      "id" : "4be5b490-1243-11f1-afb5-b19ced4e378a"
+    },
+    "externalId" : {
+      "entityType" : "ENTITY_VIEW",
+      "id" : "ba96e610-21fd-11f1-aff8-13bb54ec8fe6"
+    },
+    "keys" : {
+      "attributes" : {
+        "cs" : null,
+        "sh" : null,
+        "ss" : null
+      },
+      "timeseries" : null
+    },
+    "name" : "hreh",
+    "startTimeMs" : 0,
+    "type" : "hrfdthj",
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "id" : {
+      "entityType" : "ENTITY_VIEW",
+      "id" : "ba96e610-21fd-11f1-aff8-13bb54ec8fe6"
+    },
+    "ownerId" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

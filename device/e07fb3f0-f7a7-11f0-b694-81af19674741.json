@@ -2,9 +2,9 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "gateway" : true,
+      "gateway" : false,
       "overwriteActivityTime" : false,
-      "description" : ""
+      "description" : "Praesent eleifend nec odio vitae bibendum. Sed eleifend turpis at nibh lobortis maximus. Sed ut pulvinar eros, id sollicitudin risus. Suspendisse lobortis porttitor diam eget ultrices. Aenean tincidunt ac justo eu laoreet."
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -20,22 +20,25 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "2ec8fa60-0322-11f0-8f83-43727cd6bc90"
+      "id" : "aac545f0-84ce-11f0-9dcf-813811befd2b"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "e07fb3f0-f7a7-11f0-b694-81af19674741"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "692f0ff0-3e4a-11f1-9a3c-1fb54f58cf69"
+      "id" : "e07fb3f0-f7a7-11f0-b694-81af19674741"
     },
-    "label" : "",
-    "name" : "test234",
+    "label" : "SystemDevice",
+    "name" : "SystemDevice",
     "ownerId" : null,
     "softwareId" : null,
-    "type" : "default"
+    "type" : "thermostat"
   },
   "credentials" : {
-    "credentialsId" : "zmdfWEzmIbfB6Jqu7ttw",
+    "credentialsId" : "H5Q8WXM7rz25juwHfGMd",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -46,8 +49,16 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1776862473886,
+      "lastUpdateTs" : 1769098621373,
       "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1769096718269,
+      "longValue" : 1769096718263,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

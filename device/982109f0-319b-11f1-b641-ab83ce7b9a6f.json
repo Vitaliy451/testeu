@@ -1,0 +1,81 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "12d197d0-84dd-11f0-9dcf-813811befd2b"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "982109f0-319b-11f1-b641-ab83ce7b9a6f"
+    },
+    "label" : null,
+    "name" : "devA",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "sensor"
+  },
+  "credentials" : {
+    "credentialsId" : "irvRtYznDX7V2UZf5VgN",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "4956a9e0-8428-11f0-bb9a-7b2f4402cc46"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "982109f0-319b-11f1-b641-ab83ce7b9a6f"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 16017450
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1775468596570,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1775468596564,
+      "longValue" : 1775468596564,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1775467977488,
+      "longValue" : 1775467976771,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

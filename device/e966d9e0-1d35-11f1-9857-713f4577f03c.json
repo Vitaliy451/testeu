@@ -1,0 +1,84 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "12d197d0-84dd-11f0-9dcf-813811befd2b"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "e966d9e0-1d35-11f1-9857-713f4577f03c"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "e966d9e0-1d35-11f1-9857-713f4577f03c"
+    },
+    "label" : null,
+    "name" : "DeviceA",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "sensor"
+  },
+  "credentials" : {
+    "credentialsId" : "cQffgUlVqIFBVaqISPgn",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "4956a9e0-8428-11f0-bb9a-7b2f4402cc46"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e966d9e0-1d35-11f1-9857-713f4577f03c"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 15458241
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1774860814177,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1774860814153,
+      "longValue" : 1774860814152,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1774860158762,
+      "longValue" : 1774860157925,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ ]
+}

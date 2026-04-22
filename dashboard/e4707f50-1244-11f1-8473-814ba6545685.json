@@ -1,0 +1,172 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "title" : "test",
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "configuration" : {
+      "description" : "",
+      "widgets" : {
+        "e7ad79c1-8a5a-b843-ae07-ab48eaa91250" : {
+          "typeFullFqn" : "system.input_widgets.web_camera_input",
+          "type" : "latest",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "device",
+              "name" : "",
+              "deviceId" : "c575f410-f7ad-11f0-ac05-ad8ff9a222e9",
+              "dataKeys" : [ {
+                "name" : "temperature",
+                "type" : "timeseries",
+                "label" : "temperature",
+                "color" : "#2196f3",
+                "settings" : { }
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              }
+            } ],
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "widgetTitle" : "",
+              "saveToGallery" : true,
+              "usePublicGalleryLink" : false,
+              "imageFormat" : "image/png",
+              "imageQuality" : 0.92,
+              "maxWidth" : 640,
+              "maxHeight" : 480
+            },
+            "title" : "Photo camera input",
+            "showTitleIcon" : false,
+            "titleIcon" : "more_horiz",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : "",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "showLegend" : false,
+            "actions" : { }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "e7ad79c1-8a5a-b843-ae07-ab48eaa91250"
+        },
+        "ebf4d781-ada1-da81-1eac-5687dcf887b6" : {
+          "typeFullFqn" : "system.cards.html_card",
+          "type" : "static",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "static",
+              "name" : "function",
+              "dataKeys" : [ {
+                "name" : "f(x)",
+                "type" : "function",
+                "label" : "Random",
+                "color" : "#2196f3",
+                "settings" : { },
+                "funcBody" : "var value = prevValue + Math.random() * 100 - 50;\nvar multiplier = Math.pow(10, 2 || 0);\nvar value = Math.round(value * multiplier) / multiplier;\nif (value < -1000) {\n\tvalue = -1000;\n} else if (value > 1000) {\n\tvalue = 1000;\n}\nreturn value;"
+              } ]
+            } ],
+            "showTitle" : false,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "cardHtml" : "<div class='card'><img src=\"/api/images/public/hB6Gw6NLjkEFEBbBdKGnscDDPgfn6YJf\" alt=\"temperature\" /></div>",
+              "cardCss" : ".card {\n    font-weight: bold;\n    font-size: 32px;\n    color: #999;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}"
+            },
+            "title" : "HTML Card",
+            "dropShadow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "ebf4d781-ada1-da81-1eac-5687dcf887b6"
+        }
+      },
+      "states" : {
+        "default" : {
+          "name" : "test",
+          "root" : true,
+          "layouts" : {
+            "main" : {
+              "widgets" : {
+                "e7ad79c1-8a5a-b843-ae07-ab48eaa91250" : {
+                  "sizeX" : 7,
+                  "sizeY" : 3,
+                  "row" : 0,
+                  "col" : 0
+                },
+                "ebf4d781-ada1-da81-1eac-5687dcf887b6" : {
+                  "sizeX" : 17,
+                  "sizeY" : 12,
+                  "row" : 0,
+                  "col" : 7
+                }
+              },
+              "gridSettings" : {
+                "layoutType" : "default",
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "outerMargin" : true,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        }
+      },
+      "entityAliases" : { },
+      "filters" : { },
+      "timewindow" : {
+        "selectedTab" : 0,
+        "realtime" : {
+          "realtimeType" : 0,
+          "timewindowMs" : 3600000
+        },
+        "aggregation" : {
+          "type" : "NONE",
+          "limit" : 50000
+        }
+      },
+      "settings" : {
+        "stateControllerId" : "entity",
+        "showTitle" : false,
+        "showDashboardsSelect" : true,
+        "showEntitiesSelect" : true,
+        "showDashboardTimewindow" : true,
+        "showDashboardExport" : true,
+        "toolbarAlwaysOpen" : true
+      }
+    },
+    "name" : "test",
+    "resources" : null,
+    "assignedCustomers" : null,
+    "customerId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "e4707f50-1244-11f1-8473-814ba6545685"
+    },
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "e4707f50-1244-11f1-8473-814ba6545685"
+    },
+    "ownerId" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "entityType" : "REPORT_TEMPLATE",
+  "entity" : {
+    "configuration" : {
+      "format" : "PDF",
+      "components" : [ {
+        "alignment" : "center",
+        "background" : null,
+        "borderColor" : null,
+        "borderRadius" : null,
+        "borderWidth" : null,
+        "config" : {
+          "baseUrl" : "https://eu.thingsboard.cloud",
+          "dashboardId" : "cedd6d10-1244-11f1-b9f8-89c4115a0d71",
+          "namePattern" : null,
+          "state" : "",
+          "timewindow" : {
+            "selectedTab" : 1,
+            "history" : {
+              "historyType" : 0,
+              "interval" : 1000,
+              "timewindowMs" : 86400000
+            }
+          },
+          "timezone" : "Europe/Kiev",
+          "type" : "png",
+          "useCurrentUserCredentials" : false,
+          "useDashboardTimewindow" : true,
+          "userId" : null
+        },
+        "customWidth" : 100,
+        "dataSources" : [ ],
+        "margins" : null,
+        "paddings" : null,
+        "subType" : null,
+        "type" : "DASHBOARD",
+        "widthType" : "fitWidth"
+      } ],
+      "entityAliases" : [ {
+        "alias" : "Dashboard",
+        "filter" : {
+          "type" : "entityType",
+          "entityType" : "DASHBOARD"
+        },
+        "id" : "f000575b-ca10-9d66-e2d4-c12eda4e4a9f"
+      } ],
+      "filters" : [ ],
+      "footer" : {
+        "components" : [ ],
+        "enabled" : true,
+        "firstPage" : {
+          "components" : [ ],
+          "enabled" : false,
+          "firstPage" : null
+        }
+      },
+      "format" : "PDF",
+      "header" : {
+        "components" : [ {
+          "background" : null,
+          "borderColor" : null,
+          "borderRadius" : null,
+          "borderWidth" : null,
+          "color" : "#000",
+          "dataSources" : [ ],
+          "font" : {
+            "family" : "Roboto",
+            "size" : 40.0,
+            "style" : "normal",
+            "weight" : "normal"
+          },
+          "height" : null,
+          "margins" : null,
+          "paddings" : null,
+          "subType" : null,
+          "textAlignment" : "center",
+          "type" : "HEADING",
+          "value" : "Heading",
+          "verticalAlignment" : "middle"
+        } ],
+        "enabled" : true,
+        "firstPage" : {
+          "components" : [ ],
+          "enabled" : false,
+          "firstPage" : null
+        }
+      },
+      "namePattern" : "report-%d{yyyy-MM-dd_HH:mm:ss}",
+      "pageBackground" : "#fff",
+      "pageMargins" : {
+        "bottom" : 20,
+        "left" : 20,
+        "right" : 20,
+        "top" : 20
+      },
+      "pageOrientation" : "PORTRAIT",
+      "pageSize" : "A4",
+      "timeDataPattern" : "yyyy-MM-dd HH:mm:ss"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "description" : null,
+    "externalId" : {
+      "entityType" : "REPORT_TEMPLATE",
+      "id" : "546c1510-2c19-11f1-b641-ab83ce7b9a6f"
+    },
+    "format" : "PDF",
+    "id" : {
+      "entityType" : "REPORT_TEMPLATE",
+      "id" : "546c1510-2c19-11f1-b641-ab83ce7b9a6f"
+    },
+    "name" : "rsd",
+    "ownerId" : null,
+    "type" : "REPORT"
+  }
+}

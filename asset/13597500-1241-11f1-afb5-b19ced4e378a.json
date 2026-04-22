@@ -6,21 +6,24 @@
     },
     "assetProfileId" : {
       "entityType" : "ASSET_PROFILE",
-      "id" : "a5bea020-2fcd-11f0-91bb-3fc11ea0dfae"
+      "id" : "941a7430-8715-11f0-a1aa-d709ca5e32a7"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "13597500-1241-11f1-afb5-b19ced4e378a"
+    },
     "id" : {
       "entityType" : "ASSET",
-      "id" : "f5f656a0-3e4a-11f1-9a3c-1fb54f58cf69"
+      "id" : "13597500-1241-11f1-afb5-b19ced4e378a"
     },
     "label" : null,
-    "name" : "assets",
+    "name" : "assetTest",
     "ownerId" : null,
-    "type" : "default"
+    "type" : "Test123"
   },
   "relations" : [ ],
   "attributes" : {

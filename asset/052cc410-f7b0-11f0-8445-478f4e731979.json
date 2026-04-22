@@ -12,13 +12,16 @@
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "052cc410-f7b0-11f0-8445-478f4e731979"
+    },
     "id" : {
       "entityType" : "ASSET",
-      "id" : "f5f656a0-3e4a-11f1-9a3c-1fb54f58cf69"
+      "id" : "052cc410-f7b0-11f0-8445-478f4e731979"
     },
     "label" : null,
-    "name" : "assets",
+    "name" : "asset new",
     "ownerId" : null,
     "type" : "default"
   },
