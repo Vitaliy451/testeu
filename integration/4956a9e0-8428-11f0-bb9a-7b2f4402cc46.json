@@ -78,6 +78,19 @@
     },
     "to" : {
       "entityType" : "DEVICE",
+      "id" : "828e7f90-3980-11f1-92f7-cbbd42e0f134"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 16727081
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "4956a9e0-8428-11f0-bb9a-7b2f4402cc46"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
       "id" : "82e7def0-a81c-11f0-9318-23f6dca13fef"
     },
     "type" : "ManagedByIntegration",
@@ -96,6 +109,19 @@
     "type" : "ManagedByIntegration",
     "typeGroup" : "COMMON",
     "version" : 13112139
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "4956a9e0-8428-11f0-bb9a-7b2f4402cc46"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "982109f0-319b-11f1-b641-ab83ce7b9a6f"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 16727083
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -143,11 +169,37 @@
     },
     "to" : {
       "entityType" : "DEVICE",
+      "id" : "eea0bde0-1d35-11f1-9857-713f4577f03c"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 16727084
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "4956a9e0-8428-11f0-bb9a-7b2f4402cc46"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
       "id" : "f03ea990-84de-11f0-a1aa-d709ca5e32a7"
     },
     "type" : "ManagedByIntegration",
     "typeGroup" : "COMMON",
     "version" : 13112149
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "4956a9e0-8428-11f0-bb9a-7b2f4402cc46"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fef6fd10-84b2-11f0-a1aa-d709ca5e32a7"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 16727085
   }, {
     "additionalInfo" : null,
     "from" : {

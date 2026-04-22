@@ -18,7 +18,10 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "12d197d0-84dd-11f0-9dcf-813811befd2b"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "828e7f90-3980-11f1-92f7-cbbd42e0f134"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
@@ -47,7 +50,7 @@
     },
     "type" : "ManagedByIntegration",
     "typeGroup" : "COMMON",
-    "version" : 16489902
+    "version" : 16727081
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
@@ -55,7 +58,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1776336760544,
+      "lastUpdateTs" : 1776862955124,
       "longValue" : null,
       "strValue" : null
     }, {
